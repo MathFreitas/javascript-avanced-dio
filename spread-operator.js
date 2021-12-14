@@ -37,7 +37,7 @@ const array3 = [...array, ...array2];
 
 console.log(...array3);
 
-//spread em objetos literais
+//spread em objetos literais ñ iteraveis
 const obj = {
     teste: 123
 };
@@ -45,4 +45,11 @@ const obj2 = {
     ...obj,
     teste2: 'Olá'
 }
+console.log(obj2);
+
+//spread para clonar objetos
+const obj = {
+    test: 123
+};
+const obj2 = { ...obj };
 console.log(obj2);
