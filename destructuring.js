@@ -31,3 +31,27 @@ var obj = {
 };
 var { props: { age } } = obj;
 console.log(age);
+
+
+//Objetos e Arrays
+//modo verboso
+var obj = {
+    name: 'Matheus',
+    props: {
+        age: 23,
+        favoriteColors: ['preto', 'verde']
+    }
+};
+var color1 = obj.props.favoriteColors[0];
+var color2 = obj.props.favoriteColors[1];
+
+//destructuring assigment
+var obj = {
+    name: 'Matheus',
+    props: {
+        age: 23,
+        favoriteColors: ['preto', 'verde']
+    }
+};
+var { props: { age, favoriteColors: [color1, color2] } } = obj;
+console.log(color1);
