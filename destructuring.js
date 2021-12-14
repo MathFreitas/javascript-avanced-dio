@@ -53,5 +53,5 @@ var obj = {
         favoriteColors: ['preto', 'verde']
     }
 };
-var { props: { age, favoriteColors: [color1, color2] } } = obj;
+var { props: { favoriteColors: [color1, color2] } } = obj;
 console.log(color1);
