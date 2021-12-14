@@ -15,13 +15,19 @@ console.log(uva, banana, laranja, [tomate]);
 //Objetos
 //modo verboso
 var obj = {
-    name: 'Matheus'
+    name: 'Matheus',
+    props: {
+        age: 23
+    }
 };
-var name = obj.name;
+var age = obj.props.age;
 
 //destructuring assigment
 var obj = {
-    name: 'Matheus'
+    name: 'Matheus',
+    props: {
+        age: 23
+    }
 };
-var { name } = obj;
-console.log(name);
+var { props: { age } } = obj;
+console.log(age);
