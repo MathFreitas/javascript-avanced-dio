@@ -36,3 +36,13 @@ console.log(...array2);
 const array3 = [...array, ...array2];
 
 console.log(...array3);
+
+//spread em objetos literais
+const obj = {
+    teste: 123
+};
+const obj2 = {
+    ...obj,
+    teste2: 'Olá'
+}
+console.log(obj2);
