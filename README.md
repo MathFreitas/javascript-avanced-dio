@@ -1,2 +1,2 @@
-# javascript-avanced-dio
-Trabalhando com JavaScript ES6
+# JavaScript Avançado
+Desenvolvimento avançado com JavaScript ES6
