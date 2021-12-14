@@ -26,3 +26,13 @@ function logArgs(a, b, c, d, e) {
 
 logArgs(...array);
 
+//spread para concatenar arrays
+const array2 = [...array, 6, 7, 8];
+
+console.log(...array2);
+
+
+//spread para concatenar dois arrays
+const array3 = [...array, ...array2];
+
+console.log(...array3);
