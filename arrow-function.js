@@ -3,7 +3,7 @@ var soma = function(a, b) {
     return a + b;
 };
 
-//função com Arrow Function
+//função com Arrow Function simples
 var sum = (a, b) => a + b;
 
 //função com Arrow Function completa
