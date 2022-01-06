@@ -1,4 +1,22 @@
-//versão verbosa e antiga
+//promises
+
+const doSomethingPromise = new Promise((resolve, reject) => {
+    setTimeout(function() {
+        //did something
+        resolve('Primeira data');
+    }, 1000);
+});
+
+const doOtherThingPromise = new Promise((resolve, reject) => {
+    setTimeout(function() {
+        //did something
+        resolve('Segunda data');
+    }, 1000);
+});
+
+doSomethingPromise.then(data => console.log(data));
+
+//callbacks
 function doSomething(callback) {
     setTimeout(function() {
         //did something
